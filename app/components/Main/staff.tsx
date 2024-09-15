@@ -49,7 +49,7 @@ const TestimonialsCarousel = () => {
             <div className="absolute inset-0 flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
               {testimonials.map((testimonial, index) => (
                 <div key={index} className="w-full flex-shrink-0 px-4">
-                  <p className="text-lg italic text-gray-800 mb-6">"{testimonial.text}"</p>
+                  <p className="text-lg italic text-gray-800 mb-6">&quot;{testimonial.text}&quot;</p>
                   <p className="text-green-900 font-semibold">- {testimonial.name}</p>
                 </div>
               ))}
