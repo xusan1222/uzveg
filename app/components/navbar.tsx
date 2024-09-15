@@ -20,7 +20,7 @@ export default function Component() {
           <Link href="/" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" prefetch={false}>
             Asosiy
           </Link>
-          <Link href="#" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" prefetch={false}>
+          <Link href="/products" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" prefetch={false}>
             Mahsulotlar
           </Link>
           <Link href="#" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" prefetch={false}>
@@ -62,13 +62,13 @@ export default function Component() {
             <SheetContent side="left" className="md:hidden">
               <div className="grid gap-4 p-4">
                 <Link href="#" className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" prefetch={false}>
-                  Home
+                  Asosiy
                 </Link>
                 <Link href="#" className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" prefetch={false}>
-                  About
+                Mahsulotlar
                 </Link>
                 <Link href="#" className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" prefetch={false}>
-                  Services
+                  Retseplar
                 </Link>
                 <Link href="#" className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" prefetch={false}>
                   Contact
